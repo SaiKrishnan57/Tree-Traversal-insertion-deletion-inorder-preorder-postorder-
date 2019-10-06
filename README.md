@@ -103,7 +103,7 @@ void search(struct btnode *t)
         t->l = temp;
 }
 
-/* recursive function to perform inorder traversal of tree */
+/* recursive function to perform the inorder traversal of tree */
 void inorder(struct btnode *t)
 {
     if (root == NULL)
